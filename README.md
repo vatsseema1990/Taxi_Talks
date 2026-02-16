@@ -52,4 +52,5 @@ To deploy to GCP:
     - Upload scripts to GCS: `gsutil cp *.py gs://<your-bucket>/scripts/`
 
 4.  **Deploy DAG**:
-    - Upload `dags/nyc_taxi_airflow_dag.py` to your Cloud Composer DAGs bucket.
+    - Upload `dags/taxi_airflow_dag.py` to your Cloud Composer DAGs bucket.
+
